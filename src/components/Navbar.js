@@ -7,7 +7,7 @@ const Navbar = (props) => {
     // },2000);
     return (
         <nav className="nav-wrapper red darken-3" style={{display: 'flex', flexWrap: 'wrap',justifyContent: 'space-between',alignItems:'center'}}>
-                <a classNakme="brand-logo" style={{marginInline: '10px',fontSize: 'x-large',fontWeight: '600'}}>Poke' times</a>
+                <a className="brand-logo" style={{marginInline: '10px',fontSize: 'x-large',fontWeight: '600'}}>Poke' times</a>
                 <ul className="right" style={{display:'flex',justifyContent: 'space-between',alignItems:'center'}}>
                     <li><Link to="/">Home</Link></li>
                     <li><NavLink to="/about">About</NavLink></li>
